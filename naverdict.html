@@ -1,0 +1,1372 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head> 
+<meta charset="utf-8">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="chche-control" content="no-cache">
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="robots" content="index,nofollow">
+<meta name="keywords" content="手机词典,NAVER手机词典主屏幕,手机NAVER词典主屏幕,手机网络词典,手机NAVER语言词典，NAVER手机语学词典,手机NAVER词典,NAVER手机词典,词典,语言词典,NAVER词典Main,NAVER词典主页,词典,NAVER词典,dictionary,naver dictionary">
+<meta name="description" content="提供NAVER语言词典,知识百科搜索,手机/PC词典,APP快捷方式。"> 
+
+<!-- social meta tag 문구 및 아이콘 정의  -->
+<meta property="og:title" content="Naver词典" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="NAVER dictionary" />
+<meta property="og:description" content="提供33种语言的韩国语词典及庞大的百科词典" />
+<meta property="og:image" content="http://dicimg.naver.com/dic-home-service/img/ogtag/02_icon.png" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@NAVER_dictionary" />
+<meta name="twitter:title" content="Naver词典" />
+<meta name="twitter:description" content="提供33种语言的韩国语词典及庞大的百科词典" />
+<meta name="twitter:image" content="http://dicimg.naver.com/dic-home-service/img/ogtag/02_icon.png" />
+
+
+	
+	
+	
+
+<script>
+	var userAgent = window.navigator.userAgent.toLowerCase();
+	if (userAgent.indexOf("iphone")!=-1 || userAgent.indexOf("ipad")!=-1 ) {
+		document.write('<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">');
+	}else if(userAgent.indexOf("opera") != -1 && userAgent.indexOf("9.5") != -1){
+		document.write('<meta name="viewport" content="initial-scale=0.75,maximum-scale=0.75,minimum-scale=0.75,user-scalable=no">');
+	}else{
+		document.write('<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi=medium-dpi">');
+	}	
+</script>
+<script>
+	//os_lang默认为系统语言
+	var os_lang = "zh_CN";	
+</script>
+<script language="javascript">
+	window.i18n=function(key,msg){
+	    if(windowI18nMessage==undefined){
+	        return msg;
+	    }else{
+	        return windowI18nMessage[key];
+	    }
+	}
+
+	windowI18nMessage={};
+	windowI18nMessage['mdic.talkie']=String('TalkTalk English');
+	windowI18nMessage['mdic.icon1']=String('知识百科');
+	windowI18nMessage['mdic.icon2']=String('韩语词典'); 
+	windowI18nMessage['mdic.icon3']=String('韩语-英语词典');
+	windowI18nMessage['mdic.icon4']=String('英语单词本');
+	windowI18nMessage['mdic.icon5']=String('韩语-日语词典');
+	windowI18nMessage['mdic.icon6']=String('日语单词本');
+	windowI18nMessage['mdic.icon7']=String('中韩词典');
+	windowI18nMessage['mdic.icon8']=String('中文单词本');
+	windowI18nMessage['mdic.icon9']=String('韩语-汉字词典');
+	windowI18nMessage['mdic.icon10']=String('韩语-西班牙语词典');
+	windowI18nMessage['mdic.icon11']=String('韩语-法语词典');
+	windowI18nMessage['mdic.icon12']=String('韩语-德语词典');
+	windowI18nMessage['mdic.icon13']=String('韩语-俄语词典');
+	windowI18nMessage['mdic.icon14']=String('韩语-葡萄牙语词典');
+	windowI18nMessage['mdic.icon15']=String('韩语-越南语词典');
+	windowI18nMessage['mdic.icon16']=String('韩语-土耳其语词典');
+	windowI18nMessage['mdic.icon17']=String('蒙古语-韩语词典');
+	windowI18nMessage['mdic.icon18']=String('韩语-印度尼西亚语词典');
+	windowI18nMessage['mdic.icon19']=String('柬埔寨语-韩语词典');
+	windowI18nMessage['mdic.icon20']=String('乌克兰语-韩语词典');
+	windowI18nMessage['mdic.icon21']=String('韩语-乌孜别克语词典');
+	windowI18nMessage['mdic.icon22']=String('阿尔巴尼亚语-韩语词典');
+	windowI18nMessage['mdic.icon23']=String('格鲁吉亚语-韩语词典');
+	windowI18nMessage['mdic.icon24']=String('韩语-英语翻译器');
+	windowI18nMessage['mdic.icon25']=String('韩语-日语翻译器');
+	windowI18nMessage['mdic.icon26']=String('日韩语音翻译');
+	windowI18nMessage['mdic.icon27']=String('网站翻译');
+	windowI18nMessage['mdic.icon28']=String('JA handwriting');
+	windowI18nMessage['mdic.icon29']=String('ZH handwriting');
+	windowI18nMessage['mdic.icon30']=String('KO Hanja handwriting');
+	windowI18nMessage['mdic.icon31']=String('Naver 多国语会话');
+	windowI18nMessage['mdic.icon32']=String('Naver 多国语会话+');
+	windowI18nMessage['mdic.icon33']=String('Naver 英中日会话+');
+	windowI18nMessage['mdic.icon34']=String('中韩词典');
+	windowI18nMessage['mdic.icon35']=String('LINE词典');
+	windowI18nMessage['mdic.icon36']=String('拉丁语-韩语词典');
+	windowI18nMessage['mdic.icon37']=String('开放词典');
+	windowI18nMessage['mdic.icon38']=String('Naver词典');
+	windowI18nMessage['mdic.icon39']=String('韩语-中文翻译器');
+	windowI18nMessage['mdic.icon40']=String('韩语-印度尼西亚语词典');
+	windowI18nMessage['mdic.icon41']=String('单词本、学习');
+	windowI18nMessage['mdic.icon42']=String('我的单词本');
+	windowI18nMessage['mdic.icon43']=String('初中英语单词');
+	windowI18nMessage['mdic.icon44']=String('托业/考试单词');
+	windowI18nMessage['mdic.icon45']=String('挑战！猜词王');
+	windowI18nMessage['mdic.icon46']=String("今日热词");
+	windowI18nMessage['mdic.icon47']=String("今日猜猜看");
+	windowI18nMessage['mdic.icon48']=String("今日会话");
+	windowI18nMessage['mdic.icon49']=String('我的单词本');
+	windowI18nMessage['mdic.icon50']=String('汉字手册');
+	windowI18nMessage['mdic.icon51']=String('JLPT单词');
+	windowI18nMessage['mdic.icon52']=String('惯用句单词');
+	windowI18nMessage['mdic.icon53']=String('挑战！猜词王');
+	windowI18nMessage['mdic.icon54']=String('实用会话');
+	windowI18nMessage['mdic.icon55']=String('日语基础');
+	windowI18nMessage['mdic.icon56']=String("今日热词");
+	windowI18nMessage['mdic.icon57']=String("今日猜猜看");
+	windowI18nMessage['mdic.icon58']=String("今日会话");
+	windowI18nMessage['mdic.icon59']=String('我的单词本');
+	windowI18nMessage['mdic.icon60']=String('图片单词');
+	windowI18nMessage['mdic.icon61']=String('HSK单词');
+	windowI18nMessage['mdic.icon62']=String('BCT单词');
+	windowI18nMessage['mdic.icon63']=String('挑战！猜词王');
+	windowI18nMessage['mdic.icon64']=String('你好中文');
+	windowI18nMessage['mdic.icon65']=String("今日热词");
+	windowI18nMessage['mdic.icon66']=String("今日猜猜看");
+	windowI18nMessage['mdic.icon67']=String("今日会话");
+	windowI18nMessage['mdic.icon68']=String('英语-西班牙语翻译器');
+	windowI18nMessage['mdic.icon69']=String('英语-葡萄牙语翻译器');
+	windowI18nMessage['mdic.icon70']=String('英语-泰国语翻译器');
+	windowI18nMessage['mdic.icon71']=String('英语-印度尼西亚语翻译器');
+	windowI18nMessage['mdic.icon72']=String('翻译器、会话');
+	windowI18nMessage['mdic.icon73']=String('韩中双解词典');
+	windowI18nMessage['mdic.icon74']=String('尼泊尔-韩语词典语');
+	windowI18nMessage['mdic.icon75']=String('参与翻译Q');
+	
+	windowI18nMessage['all.cnentrans.text']=String('英语-中文翻译器');
+	windowI18nMessage['all.deentrans.text']=String('英语-德语翻译器');
+	windowI18nMessage['all.ruentrans.text']=String('英语-俄语翻译器');
+	windowI18nMessage['all.vnentrans.text']=String('英语-越南翻译器');
+	windowI18nMessage['all.hientrans.text']=String('英语-印地语翻译器');
+	
+	windowI18nMessage['mdic.line.icon01']=String('LINE词典');
+	windowI18nMessage['mdic.line.icon02']=String('LINE Dictionary EN-TH');
+	windowI18nMessage['mdic.line.icon03']=String('LINE Dictioanry ZH-EN');
+	windowI18nMessage['mdic.line.icon04']=String('mdic.line.icon04');
+	
+	windowI18nMessage['mdic.icontab1']=String('韩语词典');
+	windowI18nMessage['mdic.icontab2']=String('韩语-英语词典');
+	windowI18nMessage['mdic.icontab3']=String('韩语-日语词典');
+	windowI18nMessage['mdic.icontab4']=String('中韩词典');
+	windowI18nMessage['mdic.icontab5']=String('韩语-汉字词典');
+	windowI18nMessage['mdic.icontab6']=String('韩语-西班牙语词典');
+	windowI18nMessage['mdic.icontab7']=String('韩语-法语词典');
+	windowI18nMessage['mdic.icontab8']=String('韩语-德语词典');
+	windowI18nMessage['mdic.icontab9']=String('韩语-俄语词典');
+	windowI18nMessage['mdic.icontab10']=String('韩语-葡萄牙语词典');
+	windowI18nMessage['mdic.icontab11']=String('韩语-越南语词典');
+	windowI18nMessage['mdic.icontab12']=String('韩语-土耳其语词典');
+	windowI18nMessage['mdic.icontab13']=String('蒙古语-韩语词典');
+	windowI18nMessage['mdic.icontab14']=String('韩语-印度尼西亚语词典');
+	windowI18nMessage['mdic.icontab15']=String('柬埔寨语-韩语词典');
+	windowI18nMessage['mdic.icontab16']=String('乌克兰语-韩语词典');
+	windowI18nMessage['mdic.icontab17']=String('韩语-乌孜别克语词典');
+	windowI18nMessage['mdic.icontab18']=String('阿尔巴尼亚语-韩语词典');
+	windowI18nMessage['mdic.icontab19']=String('格鲁吉亚语-韩语词典');
+	windowI18nMessage['mdic.icontab20']=String('拉丁语-韩语词典');
+	windowI18nMessage['mdic.icontab21']=String('韩语-意大利语词典');
+	windowI18nMessage['mdic.icontab22']=String('罗马尼亚语-韩语词典');
+	windowI18nMessage['mdic.icontab23']=String('韩语-荷兰语词典');
+	windowI18nMessage['mdic.icontab24']=String('波兰语-韩语词典');
+	windowI18nMessage['mdic.icontab25']=String('韩语-瑞典语词典');
+	windowI18nMessage['mdic.icontab26']=String('韩语-匈牙利语词典');
+	windowI18nMessage['mdic.icontab27']=String('捷克语-韩语词典');
+	windowI18nMessage['mdic.icontab28']=String('斯瓦希里语-韩语词典');
+	windowI18nMessage['mdic.icontab29']=String('韩语-印地语词典');
+	windowI18nMessage['mdic.icontab30']=String('波斯语-韩语词典');
+	windowI18nMessage['mdic.icontab31']=String('韩语-泰国语词典');
+	windowI18nMessage['mdic.icontab32']=String('韩语-阿拉伯语词典');
+	windowI18nMessage['mdic.alertinfo']=String('当前使用的环境（OS）不支持该功能。');
+	windowI18nMessage['mdic.searchclose']=String('关闭搜索窗');
+	windowI18nMessage['mdic.searchopen']=String('打开搜索窗');
+	windowI18nMessage['mdic.close2']=String('关闭');
+	windowI18nMessage['mdic.title']=String('Naver词典');
+	windowI18nMessage['mdic.notic']=String('通知');
+	windowI18nMessage['mdic.viewalldic']=String('词典全部服务');
+	windowI18nMessage['mdic.viewalltrans']=String('View all translator');
+	windowI18nMessage['mendic.height']=String('113');
+	windowI18nMessage['mdic.inputinfo']=String('请输入搜索语。');
+	windowI18nMessage['locale.locale']='zh';
+	windowI18nMessage['locale.locale_nocookie']='zh';
+	windowI18nMessage['mdic.noticApp']=String('通知');
+	windowI18nMessage['mdic.trans']=String('翻译');
+	//단어퀴즈 레버리징
+	windowI18nMessage['mdic.quiz']=String('单词猜谜');
+	windowI18nMessage['mdic.quiz.kr']=String('韩语猜猜看');
+	windowI18nMessage['mdic.quiz.en']=String('英语猜猜看');
+	windowI18nMessage['mdic.quiz.cn']=String('中文猜猜看');
+	windowI18nMessage['mdic.quiz.jp']=String('日语猜猜看');
+	windowI18nMessage['mdic.quiz.fr']=String('法语猜猜看');
+	
+	windowI18nMessage['mdic.favoritelist']=String('喜爱的词典服务');
+	windowI18nMessage['mdic.edit']=String('编辑');
+	windowI18nMessage['mdic.done']=String('完成');
+	
+	windowI18nMessage['mdic.confirm01']=String('清空所有收藏目录状态下完成编辑的话，会显示基本目录。要继续进行吗？');
+	windowI18nMessage['mdic.confirm02']=String('16个喜爱的词典服务已全部选择');
+	windowI18nMessage['mdic.confirm03']=String('16个喜爱的词典服务已全满，无法继续添加。请先删除已选项，重新选择。');
+	windowI18nMessage['mdic.confirm04']=String('要从喜爱的词典服务目录中删除吗？');
+	
+	windowI18nMessage['mdic.cancel']=String('取消');
+	windowI18nMessage['mdic.yes']=String('是');
+	windowI18nMessage['mdic.no']=String('不是');
+	windowI18nMessage['mdic.app']=String('词典应用程序');
+	
+	windowI18nMessage['mdic.footer.logout']=String('Log Out');
+	windowI18nMessage['mdic.footer.login']=String('Log In');
+	
+	windowI18nMessage['mdic.openalllist']=String('查看全部清单');
+	windowI18nMessage['mdic.closealllist']=String('关闭全部清单');
+	
+	windowI18nMessage['mdic.install.info1']=String('已安装词典APP的用户将运行词典APP。');
+	windowI18nMessage['mdic.install.info2']=String('未安装词典APP的用户，请到iTunes下载并安装。');
+	
+	windowI18nMessage['mdic.seqTag1']=String('A');
+	windowI18nMessage['mdic.seqTag2']=String('Z(Pinyin)');
+	
+	windowI18nMessage['mdic.banner.info.talkie1']=String('Talk about your recent interests in English');
+	windowI18nMessage['mdic.banner.info.talkie2']=String('Communicate with friends who speak English!');
+	windowI18nMessage['mdic.banner.info.talkie3']=String('A great way to start your English studies!');	
+	windowI18nMessage['mdic.banner.info.talkie4']=String('Want to use that sentence?');	
+	windowI18nMessage['mdic.banner.info.talkie5']=String('No more studying English by yourself!');	
+	windowI18nMessage['mdic.banner.info.talkie6']=String('Easy and fast with a dictionary and a translator!');	
+	windowI18nMessage['mdic.banner.info.talkie7']=String('Solution to your fear of speaking in English!');	
+	windowI18nMessage['mdic.banner.info.talkie8']=String('Need a place to practice English?');	
+	windowI18nMessage['mdic.banner.info.talkie9']=String('Still having a hard time talking in English?');	
+	windowI18nMessage['mdic.banner.info.talkie10']=String('Why not chat in English?');
+	windowI18nMessage['mdic.banner.info.talkie']=String('TalkTalk English');
+	//Ngnb 
+	windowI18nMessage['mdic.dic']=String('词典');
+	windowI18nMessage['mdic.tab.know']=String('百科');
+	
+	windowI18nMessage['all.krvndic.text']=String('韩语词典 (for越南人)');
+	
+	var mhanjawriting = "http://m.hanja.naver.com/html/mobile/hanja_writing.html#sword=", mcnwriting = "http://m.cndic.naver.com/html/writing.html#sword=", mjpwriting = "http://m.jpdic.naver.com/ime.nhn?imeSelect=_hirakataImeSelect#sword=", mterms = "http://m.terms.naver.com", mkrdic = "http://m.krdic.naver.com",
+	mendic = "http://m.endic.naver.com", menwordbook = "http://m.wordbook.naver.com/endic/main.nhn", mjpdic = "http://m.jpdic.naver.com", mjpwordbook = "http://m.wordbook.naver.com/jpdic/main.nhn", mcndic = "http://m.cndic.naver.com/?sLn=ko",
+	mcnwordbook = "http://m.wordbook.naver.com/cndic/main.nhn", mhanja = "http://m.hanja.naver.com", mspdic = "http://m.spdic.naver.com", mfrdic = "http://m.frdic.naver.com",mdedic = "http://m.dedic.naver.com",
+	mrudic = "http://m.rudic.naver.com",mladic = "http://m.ladic.naver.com",mptdic = "http://m.ptdic.naver.com", mvndic = "http://m.vndic.naver.com", mtrdic = "http://m.trdic.naver.com", 
+	mmndic = "http://m.mndic.naver.com",middic = "http://m.iddic.naver.com", mkhdic = "http://m.khdic.naver.com",muadic = "http://m.uadic.naver.com", muzdic = "http://m.uzdic.naver.com",
+	maldic = "http://m.aldic.naver.com", mgedic = "http://m.gedic.naver.com",mkoentrans = "http://translate.naver.com/#/ko/en/", mkojatrans="http://translate.naver.com/#/ko/ja/", mopendic="http://opendict.naver.com/participation/word_list.dict#common/register/all/ko/",
+	mjptalk = "http://m.jpdic.naver.com/talk.nhn", mkocntrans="http://translate.naver.com/#/ko/zh-CN/", mitdic="http://m.itdic.naver.com", mrodic="http://m.rodic.naver.com", mnldic="http://m.nldic.naver.com", mpldic="http://m.pldic.naver.com", 
+	msvdic="http://m.svdic.naver.com", mhudic="http://m.hudic.naver.com", mcsdic="http://m.csdic.naver.com", mswdic="http://m.swdic.naver.com", mhidic="http://m.hidic.naver.com", mfadic="http://m.fadic.naver.com", 
+	mthdic="http://m.thdic.naver.com", mardic="http://m.ardic.naver.com", mcndicdomain="http://m.cndic.naver.com", mkrcndic="http://m.cndic.naver.com/?sLn=zh_CN", mquiz="http://wquiz.naver.com/", mnedic="http://m.nedic.naver.com", 
+	mtalkiebanner1="http://me2.do/FXhmX5q1", mtalkiebanner2="http://me2.do/FKFu9cBS", mtalkiebanner3="http://me2.do/xKe3KCaZ", mtalkiebanner4="http://me2.do/xtXiIVXj", mtalkiebanner5="http://me2.do/5yLl8D0c",
+	mtalkiebanner6="http://me2.do/5daVKeFU", mtalkiebanner7="http://me2.do/FxZswkPM", mtalkiebanner8="http://me2.do/FTj7HVhP", mtalkiebanner9="http://me2.do/x5jdCgoj", mtalkiebanner10="http://me2.do/xsxqHFdq", 
+	mtalkie="http://talkie.naver.com/english/room-list.dict?mode=pc", mkrvndic = "http://m.koreandict.naver.com/vietnamese/";
+	
+	// User Agent 값 획득
+	var ua = window.navigator.userAgent.toLowerCase();
+	var naverAppInfo = false;
+	if (document.cookie.indexOf("client")!=-1) {
+		naverAppInfo = true;
+	}
+	if ((ua.indexOf("iphone")!=-1 || ua.indexOf("ipod")!=-1 || ua.indexOf("ipad")!=-1) && !ua.indexOf("safari")==-1) {
+		naverAppInfo = true;
+	}
+	// 네이버 앱 안드로이드 2.3.3 이상 버전은 User-Agent 에 naver 문구가 들어간 것으로 판단한다.
+	if (ua.indexOf("naver")!=-1) {
+		naverAppInfo = true;
+	}
+	var browser = "";
+
+	if (/windows ce/.test(ua) && /polar/.test(ua)) {
+		browser = "WM_POLARIS_LGT";
+
+	} else if (/mozilla/.test(ua) && /natebrowser/.test(ua)) {
+		browser = "POLARIS_SKT";
+
+	} else if (/opera/.test(ua) && (/windows ce/.test(ua) || /skt/.test(ua))) {
+		browser = "OPERA";
+
+	} else if (/ipad/.test(ua)) {
+		browser = "IPAD_UNDER_iOS_4_2";
+		var pattern = /os+\s+((\d)_(\d))(?:_(\d))?/igm;
+		var result = pattern.exec(ua);
+		if (result != null && result.length > 0) {
+			var osVersion = result[1].replace("_", ".");
+			if (osVersion >= 4.2) {
+				browser = "IPAD_OVER_iOS_4_2";
+			}
+		}
+	} else if (/iphone/.test(ua) || /ipod/.test(ua)) {
+		browser = "SAFARI_UNDER_iOS_4_2";
+		var pattern = /os+\s+((\d)_(\d))(?:_(\d))?/igm;
+		var result = pattern.exec(ua);
+		if (result != null && result.length > 0) {
+			var osVersion = result[1].replace("_", ".");
+			if (osVersion >= 4.2) {
+				browser = "SAFARI_OVER_iOS_4_2";
+			}
+		}
+	} else if (/android/.test(ua)) {
+		browser = "ANDROID_WEBKIT";
+		if (/.*shw-m180(s|k|l|w).*/.test(ua)) {
+			// 갤럭시Tab
+			browser = "ANDROID_TABLET";
+		}
+		var pattern = /android+\s+((\d)\.(\d))(?:\.(\d))?/igm;
+		var result = pattern.exec(ua);
+		if (result != null && result.length > 0) {
+			var osVersion = result[1];
+			if (osVersion >= 3.0) {
+				// 허니콤
+				browser = "ANDROID_TABLET";
+			}
+		}
+	} else if (/dolfin/.test(ua)) {
+		browser = "DOLFIN";
+	} else if (/windows ce/.test(ua) && /iemobile/.test(ua)) {
+		browser = "IE";
+	} else if (/mozilla/.test(ua) && /(wv[0-9]+)/.test(ua) && /lgtelecom/.test(ua)) {
+		browser = "LGT_WEBVIEWER";
+	} else if ((/mozilla/.test(ua) && /((010|011|016|017|018|019)\d{3,4}\d{4}$)/.test(ua))) {
+		browser = "POLARIS_LGT";
+	} else {
+		browser = "OTHERS";
+	}
+	if (browser == "LGT_WEBVIEWER" || browser == "POLARIS_LGT" || browser == "OTHERS") {
+		if(! /chrome/.test(ua)){
+			document.write("<link rel='stylesheet' type='text/css' href='http://dicimg.naver.net/dic-home-mobile/style/201702081432/css/e.css'>");
+		}	
+	}
+	
+</script>
+<title>네이버 사전 (NAVER dictionary)</title> 
+<link rel="shortcut icon" href="http://dicimg.naver.net/favicons/dic-mobile/v2/Favicon_m.ico">
+<link rel="stylesheet" type="text/css" href="http://dicimg.naver.net/dic-home-mobile/style/201702081432/css/w.css">
+<link rel="stylesheet" type="text/css" href="http://dicimg.naver.net/dic-home-mobile/style/201702081432/css/Ngnb.css">
+<link rel="manifest" href="/manifest.json" />
+</head>  
+<!-- 한국어 스킨일 떄만 class에 skin 추가합 -->
+<body>
+	<div class="header" id="header_div" role="banner">
+		<!-- gnb -->
+		<div class="Ngnb is_scale">
+		    <span class="Ngnb_logo"><a href="http://m.naver.com/" onclick="nclk(this,'gnb.naver','','');" class="Nlogo_link"><span class="Nicon_logo">NAVER</span></a></span>
+		    <div class="Ngnb_service" style="display:none">
+		        <h1 class="Nservice_item"><a href="/" onclick="nclk(this,'gnb.mdic','','');" class="_id_dict"><span class="Nicon_service">词典</span></a></h1>
+		        <span class="Nservice_subitem">
+		            <a href="http://translate.naver.com" onclick="nclk(this,'gnb.trans','','');" class="_id_transdict">
+		                <span class="Nicon_family Nicon_translate">翻译</span>
+		            </a>
+		        </span>
+		        <span class="Nservice_subitem" style="display:none">
+		            <a href="http://wquiz.naver.com/" onclick="nclk(this,'gnb.wordquiz','','');">
+		                <span class="Nicon_family Nicon_quiz">퀴즈</span>
+		            </a>
+		        </span>
+		    </div>
+		</div>
+		<!-- //gnb -->
+		<input type="hidden" id="where" name="where" value="m_ldic" />
+		<input type="hidden" id="sm" name="sm" value="msv_hty" />
+		<!-- search -->
+		<div class="Nsearch is_fold" style="margin-top:0;">
+		    <div class="Nsearch_inner">
+		        <div class="Nsearch_box">
+		            <div class="Nsearch_box_inner">
+		                <span class="Nbox_text">
+		                    <span class="Nbox_select_wrap">
+		                        <!--[D] 언어선택시 is_active 클래스 추가, dic_select_wrap에 is_opened 추가 -->
+		                        <button type="button" class="Nbox_select"><span class="Nbox_select_text">어학</span><span class="Nicon_arrow"></span></button>
+		                    </span>
+		                    <input id="serch_val" type="search" onkeypress="keyPress_enter(event);" onclick="focusToKeywordInputBox();" onkeyup="hide_clearbtn()" name="query" title="请输入搜索语。" value="" class="Nbox_input_text" autocapitalize="off" autocorrect="off" autocomplete="on" placeholder="词典搜索">
+		                </span>
+		                <span class="Nbox_tool">
+		                    <button id="clear_button" type="button" class="Nbox_button Nbox_delete" onclick="clear_serch_val();nclk(this, 'sch.del', '', '');" style="display:none"><span class="Nicon_delete">Delete entry</span></button>
+		                </span>
+		            </div>
+		        </div>
+		        <div class="Nsearch_tool">
+		            <button type="button" onclick="form_submit();nclk(this, 'sch.go', '', '');" class="Ntool_search"><span class="Nicon_search">搜索</span></button>
+		            <!--[D] 필기인식기 선택하면 <span class="Nicon_writing"> 에 is_active 추가, input_select_wrap에 is_opened 추가 -->
+		            <button type="button" class="Ntool_search Ntool_writing" onclick="hand_click();" style="display:none"><span class="Nicon_writing">手写输入</span></button>
+		        </div>
+		    </div>
+		</div>
+		<!-- //search -->
+		<!--[D] 사전 선택 리스트 -->
+		<!--[D] 열릴때 is_opened 클래스 추가-->
+		<div class="dic_select_wrap">
+		    <h3 class="blind">사전 선택 리스트</h3>
+		    <ul class="dic_list">
+		        <!--[D] 선택된 사전에 is_selected 추가, <span class="blind">선택됨</span> 추가 -->
+		        <li id="m_ldic" class="is_selected" data-dic="dict">
+		        	<a onclick="ldic_search();" href="javascript:;">语言<span class="blind">선택됨</span></a>
+		        </li>
+		        <li id="m_kdic" data-dic="termsdict">
+		        	<a onclick="kdic_search();" href="javascript:;">百科</a>
+		        </li>
+		        <!--[D] 마지막은 이용한 사전명 -->
+		        <li id="m_odic" data-dic="othdict" style="display:none"></li>
+		    </ul>
+		    <div class="dimmed"></div>
+		</div>
+		
+		<!--[D] 필기인식기 언어 선택 리스트 -->
+		<!--[D] 열릴때 is_opened 클래스 추가-->
+		<div class="input_select_wrap">
+		    <h3 class="blind">手写输入</h3>
+		    <ul class="dic_list">
+		       	<li><a href="http://m.hanja.naver.com/html/mobile/hanja_writing.html#sword=" onclick="nclk(this, 'sch.hanja', '', '');">漢</a></li>
+               	<li><a href="javascript:go_cndic_hw('http://m.cndic.naver.com/html/writing.html#sword=');" onclick="nclk(this, 'sch.cndic', '', '');">中</a></li>
+               	<li><a href="javascript:go_jpdic_hw('http://m.jpdic.naver.com/ime.nhn?imeSelect=_hirakataImeSelect#sword=');" onclick="nclk(this, 'sch.jpdic', '', '');">日</a></li>
+		    </ul>
+		    <div class="dimmed"></div>
+		</div>
+		<!-- //header -->
+	</div>
+	<div id="content">
+		<div class="notice" id ="notice" style="display:none">
+		</div>
+		<div class="dic_area _id_top_fav_dic_area" style="display:none">
+		    <h3 class="menu" style="display:block">
+	            <strong>喜爱的词典服务</strong>
+	            <span class="txt"><span>(</span><span class="star_ico"></span>最多16个<span>)</span></span>
+	            <!-- [D] 편집 모드일 때는 클래스 on추가 / class="edit_btn on", -->
+	            <!-- 아래 사전 리스트에 클래스 editable추가 / class="diclst editable"-->
+	            <span id="edit_btn" class="edit_btn">
+	                <span class="txt_edit" onclick="nclk(this, 'cus.edit', '', '');">编辑</span>
+	                <span class="txt_complet" onclick="nclk(this, 'cus.done', '', '');">完成</span>
+	            </span>
+	        </h3>
+	        
+	    	<!-- [D] 편집 모드 X 때에는, 아래 두개의 리스트에 class="diclst" 추가-->
+        	<!-- [D] 편집 모드 O 때에는, 아래 두개의 리스트에 class="diclst editable" 추가-->
+        	<ul id="fav_use_diclst" class="diclst fav" style="display:block"></ul>
+        	
+        	<script id="fav_use_diclst_render" type="text/x-jsrender">
+				{{for}}
+					{{if type == "webtrans" || type == "jptalk"}}
+						<li class="_id_{{:type}}_fav" >
+							<input id="hidden_type" type="hidden" value="{{:type}}" />
+							<a href="javascript:;" class="detail">
+					{{else}}
+						<li class="">
+						<input id="hidden_type" type="hidden" value="{{:type}}" />
+						<a href="javascript:;" class="detail" onclick="indexM.open_dic('favorite','{{:link}}','{{:type}}','{{:name}}','{{:source}}','{{:nclick}}','{{:sub_name}}','{{:isBeta}}','{{:isUp}}'); click_dic('{{:type}}'); nclk(this, '{{get_nclk:nclick 'fav'}}', '', '');">
+					{{/if}}
+							<span class="img {{check_type:type source}}">
+								<span class="fav_ico"></span>
+							</span>
+							<span class="dic_nm">
+								{{check_name:type name sub_name}}
+                                <!-- 收藏后编辑状态也能显示beta-->
+								{{if isBeta == 1}}
+									<span class="beta hc">beta</span>
+								{{/if}}	
+								{{if isUp == 1}}
+									<span class="update hc">update</span>
+								{{/if}}
+							</span>
+						</a>
+						<span class="remove_btn hc" onclick="indexM.del_dic('favorite','{{:type}}','{{:source}}'); nclk(this, 'cus.del', '', '');">제거</span>
+						<span class="move_btn hc">이동</span>
+					</li>
+				{{/for}}
+			</script>
+        	
+        	 <!-- 사용자가 추가한 사전 -->
+        	<ul id="common_use_diclst" class="diclst no_fav" style="display:block"></ul>
+
+	    	<script id="common_use_diclst_render" type="text/x-jsrender">
+				{{if editable == "on"}}
+					{{for current_lst}}
+						{{if type == "webtrans" || type == "jptalk"}}
+							<li class="no_fav _id_{{:type}}_common" >
+								<a href="javascript:;" class="detail">
+						{{else}}
+							<li class="no_fav" >
+								<a href="javascript:;" class="detail" onclick="indexM.open_dic('current','{{:link}}','{{:type}}','{{:name}}','{{:source}}','{{:nclick}}','{{:sub_name}}','{{:isBeta}}','{{:isUp}}'); click_dic('{{:type}}'); nclk(this, '{{get_nclk:nclick 'rec'}}', '', '');">
+						{{/if}}
+								<span class="img {{check_type:type source }}">
+									<span class="fav_ico"></span>
+								</span>
+								<span class="dic_nm">
+									{{check_name:type name sub_name}}
+                                <!-- 访问过的编辑状态也能显示beta-->
+								{{if isBeta == 1}}
+									<span class="beta hc">beta</span>
+								{{/if}}
+								{{if isUp == 1}}
+									<span class="update hc">update</span>
+								{{/if}}
+								</span>
+							</a>
+							<span class="remove_btn hc" onclick="indexM.del_dic('current','{{:type}}','{{:source}}'); nclk(this, 'cus.del', '', '');">제거</span>
+							<span class="move_btn hc">이동</span>
+							<span class="fav_btn hc" onclick="indexM.fav_dic('{{:flag}}','{{:link}}','{{:type}}','{{:name}}','{{:source}}','{{:nclick}}','{{:sub_name}}',this,'{{:isBeta}}','{{:isUp}}')">즐겨찾기설정</span>
+						</li>
+					{{/for}}
+					{{for basic_lst}}
+						{{if type == "webtrans" || type == "jptalk"}}
+							<li class="no_fav _id_{{:type}}_common" >
+								<a href="javascript:;" class="detail">
+						{{else}}
+							<li class="no_fav" >	
+								<a href="javascript:;" class="detail" onclick="indexM.open_dic('basic','{{:link}}','{{:type}}','{{:name}}','{{:source}}','{{:nclick}}','{{:sub_name}}','{{:isBeta}}','{{:isUp}}'); click_dic('{{:type}}'); nclk(this, '{{get_nclk:nclick 'def'}}', '', '');">
+						{{/if}}
+								<span class="img {{check_type:type source}}">
+									<span class="fav_ico"></span>
+								</span>
+								<span class="dic_nm">
+									{{check_name:type name sub_name}}
+ 									{{if isBeta == 1}}
+										<span class="beta hc">beta</span>
+									{{/if}}	
+									{{if isNew == 1}}
+										<span class="new hc">NEW</span>
+									{{/if}}
+									{{if isUp == 1}}
+										<span class="update hc">update</span>
+									{{/if}}
+								</span>
+							</a>
+							<span class="remove_btn hc" onclick="indexM.del_dic('basic','{{:type}}','{{:source}}'); nclk(this, 'cus.del', '', '');">제거</span>
+							<span class="move_btn hc">이동</span>			
+							<span class="fav_btn hc" onclick="indexM.fav_dic('{{:flag}}','{{:link}}','{{:type}}','{{:name}}','{{:source}}','{{:nclick}}','{{:sub_name}}',this,'{{:isBeta}}','{{:isUp}}')">즐겨찾기설정</span>
+						</li>
+					{{/for}}
+				{{else}}
+					{{for current_lst}}
+						{{if type == "webtrans" || type == "jptalk"}}
+							<li class="no_fav _id_{{:type}}_common" >
+								<a href="javascript:;" class="detail">
+						{{else}}
+							<li class="no_fav" >
+								<a href="javascript:;" class="detail" onclick="indexM.open_dic('current','{{:link}}','{{:type}}','{{:name}}','{{:source}}','{{:nclick}}','{{:sub_name}}','{{:isBeta}}','{{:isUp}}'); click_dic('{{:type}}'); nclk(this, '{{get_nclk:nclick 'rec'}}', '', '');">
+						{{/if}}
+								<span class="img {{check_type:type source}}">
+									<span class="fav_ico"></span>
+								</span>
+								<span class="dic_nm">
+									{{check_name:type name sub_name}}
+                                    {{if isBeta == 1}}
+										<span class="beta hc">beta</span>
+									{{/if}}
+									{{if isUp == 1}}
+										<span class="update hc">update</span>
+									{{/if}}
+								</span>
+							</a>
+							<span class="remove_btn hc" onclick="indexM.del_dic('current','{{:type}}','{{:source}}'); nclk(this, 'cus.del', '', '');">제거</span>
+							<span class="move_btn hc">이동</span>
+						</li>
+					{{/for}}
+					{{for basic_lst}}
+						{{if type == "webtrans" || type == "jptalk"}}
+							<li class="no_fav _id_{{:type}}_common" >
+								<a href="javascript:;" class="detail">
+						{{else}}
+							<li class="no_fav">
+							<a href="javascript:;" class="detail" onclick="indexM.open_dic('basic','{{:link}}','{{:type}}','{{:name}}','{{:source}}','{{:nclick}}','{{:sub_name}}','{{:isBeta}}','{{:isUp}}'); click_dic('{{:type}}'); nclk(this, '{{get_nclk:nclick 'def'}}', '', '');">
+						{{/if}}
+								<span class="img {{check_type:type source }}">
+									<span class="fav_ico"></span>
+								</span>
+								<span class="dic_nm">
+									{{check_name:type name sub_name}}
+									{{if isBeta == 1}}
+										<span class="beta hc">beta</span>
+									{{/if}}	
+									{{if isNew == 1}}
+										<span class="new hc">NEW</span>
+									{{/if}}
+									{{if isUp == 1}}
+										<span class="update hc">update</span>
+									{{/if}}
+								</span>
+							</a>
+							<span class="remove_btn hc" onclick="indexM.del_dic('current','{{:type}}','{{:source}}'); nclk(this, 'cus.del', '', '');">제거</span>
+							<span class="move_btn hc">이동</span>
+						</li>
+					{{/for}}
+				{{/if}}
+			</script>
+		</div>
+		
+		
+		 <!-- 전체 사전 서비스 목록 -->
+	<div class="dic_area">
+		<!--[D] 사전 전체보기 클릭 시 클래스 on 추가 <h3 class="all on">-->
+	    <h3 id="all_dic_h3" class="all_tit">词典全部服务</h3>
+        <div id="tab_wrap" class="tab_wrap" style="block">
+            <div id="" class="tab">
+            	<div class="scroller">
+            		<ul>
+                        <!-- [D] 탭 선택시 class에 "on"추가 -->
+                        <!-- [D] 각 탭 활성화시, 각 탭에 해당하는 아래 리스트 및 애플리케이션 영역 display:block으로 변경 -->
+                        <li id="tab_itm_dic" class="tab_itm dic on"><a href="javascript:void(0);"><span class="tab_lb">词典</span></a><span class="line"></span></li>
+                        <li id="tab_itm_wordbook" class="tab_itm wordbook"><a href="javascript:void(0);"><span class="tab_lb">单词本、学习</span></a><span class="line"></span></li>
+                        <li id="tab_itm_trans" class="tab_itm trans"><a href="javascript:void(0);"><span class="tab_lb">翻译器、会话</span></a><span class="line"></span></li>
+                    </ul>
+            	</div>
+            </div>
+        </div>
+
+        <!-- [D] 위의 탭에 해당하는 리스트 display:block으로 변경 -->
+        <!-- [D] id값은 마크업 확인용이므로, 개발 시 삭제해주세요~ -->
+        <!-- [D] 사전 탭 리스트 -->
+        <div id="all_tab" class="swipe">
+        	<div>
+		        <div id="tabDic" style="display:block" >
+		        	<div id="dic_wrapper">
+		        		
+						<ul id="tabDic_ul_one" class="diclst" >
+		       			<script id="tabDic_render" type="text/x-jsrender">
+						{{for dics}}
+							<li id="{{:type}}" class="">
+								<a href="javascript:;" class="detail" onclick="indexM.open_dic('{{:flag}}','{{:link}}','{{:type}}','{{:name}}','{{:source}}','{{:nclick}}','{{:sub_name}}','{{:isBeta}}','{{:isUp}}'); click_dic('{{:type}}'); nclk(this, '{{get_nclk:nclick 'dsc'}}', '', '');">
+									<span class="img {{:type}}"></span>
+									<span class="dic_nm">
+										{{:name}}
+									{{if isBeta == 1}}
+										<span class="beta hc">beta</span>
+									{{/if}}	
+									{{if isNew == 1}}
+										<span class="new hc">NEW</span>
+									{{/if}}	
+									{{if isUp == 1}}
+										<span class="update hc">update</span>
+									{{/if}}
+									</span>
+								</a>
+								{{if flag == "favorite"}}
+									<span class="fav_btn on" onclick="indexM.fav_dic('{{:flag}}','{{:link}}','{{:type}}','{{:name}}','{{:source}}','{{:nclick}}','',this,'{{:isBeta}}','{{:isUp}}')"></span>
+								{{else}}
+									<span class="fav_btn" onclick="indexM.fav_dic('{{:flag}}','{{:link}}','{{:type}}','{{:name}}','{{:source}}','{{:nclick}}','',this,'{{:isBeta}}','{{:isUp}}')"></span>
+								{{/if}}
+							</li>
+						{{/for}}
+						</script>
+						</ul>  
+						<ul  id="tabDic_ul_two" class="diclst" >
+						<script id="tabDic_render" type="text/x-jsrender">
+						{{for dics}}
+							<li id="{{:type}}" class="">
+								<a href="javascript:;" class="detail" onclick="indexM.open_dic('{{:flag}}','{{:link}}','{{:type}}','{{:name}}','{{:source}}','{{:nclick}}'); click_dic('{{:type}}'); nclk(this, '{{get_nclk:nclick 'dsc'}}', '', '');">
+									<span class="img {{:type}}"></span>
+									<span class="dic_nm">
+										{{:name}}
+									{{if isBeta == 1}}
+										<span class="beta hc">beta</span>
+									{{/if}}	
+									{{if isNew == 1}}
+										<span class="new hc">NEW</span>
+									{{/if}}	
+									{{if isUp == 1}}
+										<span class="update hc">update</span>
+									{{/if}}
+									</span>
+								</a>
+								{{if flag == "favorite"}}
+									<span class="fav_btn on" onclick="indexM.fav_dic('{{:flag}}','{{:link}}','{{:type}}','{{:name}}','{{:source}}','{{:nclick}}','',this)"></span>
+								{{else}}
+									<span class="fav_btn" onclick="indexM.fav_dic('{{:flag}}','{{:link}}','{{:type}}','{{:name}}','{{:source}}','{{:nclick}}','',this)"></span>
+								{{/if}}
+							</li>
+						{{/for}}
+						</script>
+						</ul> 
+						<div class="dic_area app" id="tabDicApp" style="display:none">
+							<h3>词典应用程序</h3>
+							<ul class="diclst">
+								<li id="dic_app_download_area" class="down" style="display:none">
+									<a id="dic_app_download" href="javascript:;" >
+										<span class="img dicapp">
+											<span class="down_btn"></span>
+										</span>
+										<span class="dic_nm">
+											Naver词典
+										</span>
+									</a>
+								</li>
+								<li id="linedic_download_area" class="down" style="display:none">
+									<a id="linedic_download" href="http://linedict.naver.com/app" >
+										<span class="img line_dict">
+											<span class="down_btn"></span>
+										</span>
+										<span class="dic_nm">
+											LINE词典
+										</span>
+									</a>
+								</li>
+								<li id="lineDict_enth_area" class="down" style="display:none">
+									<a id="lineDict_enth" href="https://play.google.com/store/apps/details?id=com.naver.android.globaldictenth" >
+										<span class="img line_dict_enth ">
+											<span class="down_btn hc">다운로드</span>
+										</span>
+										<span class="dic_nm">
+											LINE词典<br> 英语-泰国语
+											<span class="new"></span>
+										</span>
+									</a>
+								</li>
+								<li id="lineDict_zhen_area" class="down" style="display:none">
+									<a id="lineDict_zhen" href="https://play.google.com/store/apps/details?id=com.naver.android.globaldictcnen" >
+										<span class="img line_dict_zhen">
+											<span class="down_btn hc">다운로드</span>
+										</span>
+										<span class="dic_nm">
+											LINE词典<br> 中文-英语
+											<span class="new"></span>
+										</span>
+									</a>
+								</li>
+								<li id="lineDict_enid_area" class="down" style="display:none">
+									<a id="lineDict_enid" href="https://play.google.com/store/apps/details?id=com.naver.android.globaldict" >
+										<span class="img line_dict_enid">
+											<span class="down_btn hc">다운로드</span>
+										</span>
+										<span class="dic_nm">
+											LINE词典<br> 英语-印度尼西亚语
+											<span class="new"></span>
+										</span>
+									</a>
+								</li>				               
+							</ul>
+						</div>
+						<div id="show_all_dics" class="all _id_show_all"><button type="button"><span class="txt">查看全部清单</span><span class="arrow"></span></button></div>
+					</div>
+		        </div>
+		  
+		        <!-- [D] 단어장 탭 리스트 -->
+		        <!-- [D] 하위 리스트에는 li에 클래스 "sub"추가 -->
+		        <div id="tabWord" style="display:none" >
+		        	<div id="word_wrapper">
+		        		
+		       			<ul id="tabWord_ul" class="diclst wordbook" >
+		       			
+		        		<script id="tabWord_render" type="text/x-jsrender">
+						{{for wordbooks}}
+
+							<li class="">
+								<a href="javascript:;" class="detail" onclick="indexM.open_dic('{{:flag}}','{{:link}}','{{:type}}','{{:name}}','{{:source}}','{{:nclick}}','main_name','{{:isBeta}}','{{:isUp}}'); click_dic('{{:type}}'); nclk(this, '{{get_nclk:nclick 'dsc'}}', '', '');">
+									<span class="img {{:type}}"></span>
+									<span class="dic_nm">
+									{{:name}}	
+                                    {{if isBeta == 1}}
+										<span class="beta hc">beta</span>
+									{{/if}}	
+									{{if isNew == 1}}
+										<span class="new hc">NEW</span>
+									{{/if}}
+									{{if isUp == 1}}
+										<span class="update hc">update</span>
+									{{/if}}
+									</span>
+								</a>               
+								{{if flag == "no_fav"}}
+									<span class="fav_btn hc" onclick="indexM.fav_dic('{{:flag}}','{{:link}}','{{:type}}','{{:name}}','{{:source}}','{{:nclick}}','',this,'{{:isBeta}}','{{:isUp}}')">즐겨찾기설정</span>
+								{{else}}
+									<span class="fav_btn on hc" onclick="indexM.fav_dic('{{:flag}}','{{:link}}','{{:type}}','{{:name}}','{{:source}}','{{:nclick}}','',this,'{{:isBeta}}','{{:isUp}}')">즐겨찾기설정</span>
+								{{/if}}
+							
+								<ul class="sub">
+							        {{for items}}
+
+							   		<li>
+								  	    <a href="javascript:;" class="detail" onclick="indexM.open_dic('{{:flag}}','{{:link}}','{{:type}}','{{:name}}','{{:source}}','{{:nclick}}','{{:sub_name}}'); click_dic('{{:type}}'); nclk(this, '{{get_nclk:nclick 'dsc'}}', '', '');">
+									       <span class="dic_nm">
+										       {{:name}}
+									       </span>
+								       </a>
+								       {{if flag == "no_fav"}}
+									       <span class="fav_btn hc" onclick="indexM.fav_dic('{{:flag}}','{{:link}}','{{:type}}','{{:name}}','{{:source}}','{{:nclick}}','{{:sub_name}}',this)">즐겨찾기설정</span>
+								       {{else}}
+									       <span class="fav_btn on hc" onclick="indexM.fav_dic('{{:flag}}','{{:link}}','{{:type}}','{{:name}}','{{:source}}','{{:nclick}}','{{:sub_name}}',this)">즐겨찾기설정</span>
+								       {{/if}}
+							  	     </li>
+
+							        {{/for}}
+								</ul>  
+					        </li>
+						{{/for}}       
+  
+						</script>
+						
+						</ul>
+						<div id="show_all_wordbooks" class="all _id_show_all"><button type="button"><span class="txt">查看全部清单</span><span class="arrow"></span></button></div>
+					</div>
+		       	</div>
+		        
+		        <!-- [D] 번역/회화 탭 리스트 -->
+		        <div id="tabTrans" style="display:none" >
+		        	<div id="trans_wrapper">
+		        		
+			        	<ul id="tabTrans_ul" class="diclst" > 
+	        			<script id="tabTrans_render" type="text/x-jsrender">						
+						{{for translates}}
+							{{if type == "webtrans" || type == "jptalk"}}
+								<li class="_id_{{:type}}_default">
+									<a href="javascript:;" class="detail" >
+							{{else}}
+								<li class="">
+									<a href="javascript:;" class="detail" onclick="indexM.open_dic('{{:flag}}','{{:link}}','{{:type}}','{{:name}}','{{:source}}','{{:nclick}}'); click_dic('{{:type}}'); nclk(this, '{{get_nclk:nclick 'dsc'}}', '', '');">
+							{{/if}}
+									<span class="img {{:type}}"></span>
+									<span class="dic_nm">
+									{{:name}}
+									{{if type == "cnentrans" || type == "deentrans" || type == "ruentrans" || type == "vnentrans" || type == "hientrans"}}
+										<span class="new hc">NEW</span>
+									{{/if}}
+									</span>
+								</a>               
+								{{if flag == "no_fav"}}
+									<span class="fav_btn hc" onclick="indexM.fav_dic('{{:flag}}','{{:link}}','{{:type}}','{{:name}}','{{:source}}','{{:nclick}}','',this)">즐겨찾기설정</span>
+								{{else}}
+									<span class="fav_btn on hc" onclick="indexM.fav_dic('{{:flag}}','{{:link}}','{{:type}}','{{:name}}','{{:source}}','{{:nclick}}','',this)">즐겨찾기설정</span>
+								{{/if}}
+							</li>
+						{{/for}} 						
+						</script>
+						</ul>
+						<div class="dic_area app" id="transTabApp" style="display: none;">
+							<h3>词典应用程序</h3>
+							<ul class="diclst">
+								<li class="down">
+										<a id="phrasebook_download" href="javascript:onClickPraseApp_ios9();">
+										<span class="img gb">
+											<span class="down_btn hc">다운로드</span>
+										</span>
+										<span class="dic_nm">
+											Naver 多国语会话
+										</span>
+									</a>
+								</li>
+								<li class="down">
+										<a id="phrasebook_download_plus" href="javascript:void(0);">
+										<span class="img gbp">
+											<span class="down_btn hc">다운로드</span>
+										</span>
+										<span class="dic_nm">
+											Naver 多国语会话+
+										</span>
+									</a>
+								</li>
+								<!-- 글로벌 회화 앱 종료로 인해 사전앱 관련 아이콘 제거
+								<li class="down">
+										<a id="phrasebook_download_plus_ecj" href="javascript:void(0);">
+										<span class="img gbp_ecj">
+											<span class="down_btn hc">다운로드</span>
+										</span>
+										<span class="dic_nm">
+											Naver 英中日会话+
+										</span>
+									</a>
+								</li> -->
+							</ul>
+						</div>
+						<div id="show_all_trans" class="all _id_show_all"><button type="button"><span class="txt">查看全部清单</span><span class="arrow"></span></button></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+   <!-- // 전체 사전 서비스 목록 -->
+   	<!-- 하단 배너 -->
+        
+
+<!-- 영어톡톡 배너 --> 	
+<div class="talk_banner" style="display:none"> 	
+	<a href="javascript:;" class="bann_talk" onclick="nclk(this, 'dac.talkiebanner', '', '');">	
+		<span class="inner_bann">
+           
+        </span>	
+	</a>	
+</div>
+<!-- // 영어톡톡 배너 -->
+<!-- 번역기 배너 -->
+<div id="banner_trans" style="display:none"></div>
+<!--// 번역기 배너 -->
+<!-- 사전 앱 배너 -->
+<a href="javascript:;" class="banner_card dictapp" id="banner_dic_app" style="display:none">
+	<span class="banner_inner">
+		<span class="txt_area">
+			<strong>只要有NAVER词典APP就OK!</strong>
+			<span>33个语言词典和英语翻译器，<br>以及270万词条的知识百科，只需这一个！</span>
+		</span>
+		<span class="img_area long"></span>
+	</span>
+</a>
+<!--// 사전 앱 배너 -->
+<!-- 사이트번역기 배너 -->
+<a href="javascript:;" class="banner_card sitetrans" id="banner_sitetrans" style="display:none">
+	<span class="banner_inner">
+		<span class="txt_area">
+			<strong>网站翻译也可在NAVER！</strong>
+			<span>请用韩语浏览英语、中文、日语网站吧！</span>
+		</span>
+		<span class="img_area long"></span>
+	</span>
+</a>
+<!--// 사이트번역기 배너 -->
+<!-- 단어퀴즈 배너 (다국어는 하지 않고 한국어로만 제공함.)-->
+<a href="http://wquiz.naver.com/" onclick="nclk(this, 'dac.wordquizbanner', '', '');" class="banner_card wquiz" id="banner_quiz" style="display:none">
+	<span class="banner_inner">
+		<span class="txt_area">
+			<strong>단어퀴즈 풀고 언어상식 키우자!</strong>
+			<span>알쏭달쏭 우리말, 혼동되는 영단어를 퀴즈로 풀어 보세요.</span>
+		</span>
+		<span class="img_area long"></span>
+	</span>
+</a>
+<!--// 단어퀴즈 배너 -->
+<!-- 베한사전 배너 -->
+<a href="javascript:onClickKrvnDic();" onclick="nclk(this, 'dac.krvndic', '', '');" class="banner_card krvn" style="display:none">
+	<span class="banner_inner">
+		<span class="txt_area">
+			<strong>Korean dictionary for Vietnamese open!</strong>
+			<span>The high quality native pronunciation and usefulinformation provided.</span>
+		</span>
+		<span class="img_area long"></span>
+	</span>
+</a>
+<!--// 베한사전 배너 -->
+<!-- 파파고 오픈배너-->
+<a href="http://hyperurl.co/cyeqrk" onClick="onClickPapago(); nclk(this, 'dac.papago', '', '');" id="banner_papago" style="display:none" class="banner_card papago">
+	<span class="banner_inner">
+		<span class="txt_area">
+			<strong>聪明的翻译应用papago</strong>
+			<span>从语音翻译到图片翻译！ <br>*Android&iOS版本上市*</span>
+		</span>
+		<span class="img_area"></span>
+	</span>
+</a>
+<!--// 파파고 오픈배너 -->
+<!-- 중국어사전 자동완성 배너 -->
+<div class="section_card" id="banner_cnautocmp" style="display:none">
+	<a href="http://m.blog.naver.com/dic_master/220777048315" onClick="nclk(this, 'dac.krcndicbanner', '', '');"" class="banner_card autocomplete">
+		<span class="banner_inner">
+			<span class="txt_area">
+				<strong>中文词典自动完成功能升级啦！</strong>
+				<span>快速查找释义、拼音、以及韩文搜索吧！</span>
+			</span>
+			<span class="img_area"></span>
+		</span>
+	</a>
+</div>
+<!--// 중국어사전 자동완성 배너 -->
+	    <!-- 개인화 플로그인 영역 -->
+	    <div class="share_area">
+            <div id="spi" class="naver-splugin" data-style="sns" data-blog-source-form="2" data-cafe-display="off"></div>
+        </div>
+        <!--// 개인화 플로그인 영역  -->
+	<!--// 하단 배너 -->
+		<div class="set_lang">
+            <label for="selec_lang">语言设置</label>
+            <div class="selec_wrap">
+                <select id="selec_lang">
+                    <option value="ko">한국어</option>
+                    <option value="en">English</option>
+                    <option value="zh_CN">简体中文</option>
+                    <option value="ja">日本語</option>
+                </select>
+            </div>
+	        <a href="javascript:nclk(this, 'fot.top', '', '1');window.scrollTo(0, 1);" class="u_ftst ico_top">Top</a>
+	    </div>
+	
+	<!-- iOS home shortcut layer -->
+	<div id="firstEnterPage" class="layer_shortcut" style="display:none">
+		<div class="inner">
+			<p class="layer_shortcut_row">
+				<img src="http://dicimg.naver.com/dic-home-service/img/ico_dict_ios.png" width="55" height="55" alt="" class="ico_dict">若想便捷使用<em class="text_color">词典</em>, 请点击下方的 <span class="ico_arrowup">O键</span><em class="text_color">添加至主页</em>
+			</p>
+			<a href="" class="layer_shortcut_close" role="button" onclick="hidefirstEnter();nclk(this, 'flt.dclose', '', '');return false;"><span class="ico_x">레이어창 닫기</span></a>
+			<span class="layer_shortcut_arrow"></span>
+		</div>
+ 	</div>
+	<div class="footer" id="footer_div" role="contentinfo">
+		<aside>
+			<div class="u_gnbw">
+				<div id="u_gnbuw2" class="u_gnbuw">
+					<h2 class="u_vc">All Products</h2>
+					<a href="#u_ftlkw" class="u_vc">跳过所有服务</a>
+					<div class="u_gnbu_w" id="footallservice">
+					</div>
+				</div>
+			</div>
+		</aside>
+		<p id="u_ftlkw" class="u_ftlkw">
+			<a id="login_out" class="u_ftlk" href="javascript:window.location.href='https://nid.naver.com/nidlogin.login?svctype=262144&url='+encodeURIComponent(window.location)">Log In</a>
+			<a href="http://dic.naver.com/index.nhn" onclick="nclk(this, 'fot.gopc', '', '');" class="u_ftlk">PC Version</a> <a id="all_app" href="" onclick="nclk(this, 'fot.app', '', '');" class="u_ftlk">All Apps</a>
+			<!-- [D] 전체서비스 접기: <a class="u_ftlkbt u_ftlkbt_fd">전체서비스<span class="u_vc"> 접기</span></a> -->
+			<a href="http://m.naver.com/services.html?f=svc.dic" class="u_ftlk" onclick="nclk(this, 'gnb.sitemap', '', '');setTimeout(function(){window.scrollTo(0,10000)},100);">All Products</span></a>
+		</p>
+		<p class="u_cr">
+			<span class="u_cri"><a href="http://m.help.naver.com/support/service/main.nhn?serviceNo=5609" class="u_cra u_cra_v1" onclick="nclk(this, 'fot.help', '', '');">Help</a></span>
+			<em class="u_cri" id="infoProtect"><a href="https://nid.naver.com/mobile/user/help/termAgree.nhn?m=viewTermAgree3" class="u_cra">개인정보처리방침</a></em>
+			<span class="u_cri"><a href="http://m.help.naver.com/support/issue/report.nhn?serviceNo=5609" class="u_cra" onclick="nclk(this, 'fot.claim', '', '');">Inquiry or Report</a></span>
+			<span class="u_cri u_cri_v1">&copy;<a class="u_cra u_cra_v1" href="http://www.nhncorp.com" onclick="nclk(this, 'fot.navercorp', '', '');">NAVER Corp.</a></span>			
+		</p>
+	</div>
+	
+	<div id="guide_pop_wrap1" class="guide_pop_wrap" style="display:none">
+		<div class="pop_container">
+		    <div class="pop" id="edit_info">
+		        <h2 class="u_vc">안내 문구 레이어</h2>
+		        <div class="txt_area">
+		            <p><span class="highlight">删除和编辑项目</span><br>或者在近期使用/基本项目上<span class="highlight">标注</span> <span class="star_ico"></span>进行固定。 <br>﻿只有标注<span class="star_ico"></span>﻿的才可以变更顺序</p>
+		            <span class="division"></span>
+		        </div>
+		        <div class="txt_area v1">
+		            <p>超过16个时，从未标注 <span class="star_ico"></span><br>﻿的最后项开始自动删除。</p>
+		        </div>
+		        <div class="btn_area">
+		            <button type="button" onclick="indexM.closeLayer('guide_pop_wrap1', '0');" class="btn_close">不再显示</button>
+		            <button type="button" onclick="indexM.closeLayer('guide_pop_wrap1', '1');" class="btn_ok">确认</button>
+		        </div>
+		    </div>
+	    </div>
+	    <div class="pop_bg"></div>
+	</div>
+ 
+	<div id="guide_pop_wrap2" class="guide_pop_wrap" style="display:none">
+		<div class="pop_container">
+		    <div class="pop" id="current_service_info">
+		        <h2 class="u_vc">안내 문구 레이어</h2>
+		        <div class="txt_area v2">
+		            <p>近期使用的服务将 <br>添加到顶端的<span class="highlight">喜爱的词典服务</span>. <br>但超过16个时，从最后项开始删除。<br> 若想固定请标注<span class="star_ico"></span></p>
+		        </div>
+		        <div class="btn_area">
+		            <button type="button" onclick="indexM.closeLayer('guide_pop_wrap2', '0');" class="btn_close">不再显示</button>
+		            <button type="button" onclick="indexM.closeLayer('guide_pop_wrap2', '1');" class="btn_ok">确认</button>
+		        </div>
+		    </div>
+	    </div>
+	    <div class="pop_bg"></div>
+	</div>
+	<div id="firstEnterPageAndroid" class="shortcut" style="display:none">
+		<a id="firstEnterPageAndroidHref" href="javascript:;" onclick="nclk(this,'fot.shortcut','','1');" class="shortcut_click">
+			<img src="http://dicimg.naver.com/dic-home-service/img/ico_dict_android.png" width="30" height="30" alt="" class="shortcut_ico"><span class="shortcut_text">在NAVER APP的</span><br><span class="shortcut_text2"><em class="shortcut_text2_color">词典主页</em>上添加快捷方式</span>
+			<span class="shortcut_ico2"></span>
+ 		</a>
+ 	</div>
+	<!-- Popup : [D] 신규 추가 layer popup -->
+	<div class="shadow_view" id="firstEnterSetLang1" style="display:none"></div>
+	<div class="new_pop" id="firstEnterSetLang2" style="display:none">
+		<p class="txt_view">正在用<b>简体中文</b>使用<br/>Naver词典。</p>
+		<div class="option_area">
+			<span class="txt">若想要改语言，请选择。</span>
+			<div class="select">
+				<label for="selec_lang2">Select language</label>
+				<select id="selec_lang2">
+					<option value="ko">한국어</option>
+                    <option value="en">English</option>
+                    <option value="zh_CN">简体中文</option>
+                    <option value="ja">日本語</option>
+				</select>
+			</div>
+			<a href="#" class="btn_confirm" onclick="jQuery.cookie('firstEnter', null);swichLocale($('selec_lang2').value);return false;">确认</a>
+		</div>
+		<a href="#" class="btn_close" onclick="closeEnterSetLang();return false;">close</a>
+	</div>
+	<!-- //Popup : [D] 신규 추가 layer popup -->
+<iframe title="this frame prevents back forward cache" style="height:0px;width:0px;visibility:hidden;border:0;display:block;" src="about:blank">this frame prevents back forward cache</iframe>
+
+</body>
+
+	<script type="text/javascript" src="http://dicimg.naver.net/dic-common-js/20170410112653/mdichome-core-1.js"></script>
+	<script type="text/javascript">
+		LazyLoad=(function(j){var g,h,b={},e=0,f={css:[],js:[]},m=j.styleSheets;function l(p,o){var q=j.createElement(p),n;for(n in o){if(o.hasOwnProperty(n)){q.setAttribute(n,o[n])}}return q}function i(n){var q=b[n],r,o;if(q){r=q.callback;o=q.urls;o.shift();e=0;if(!o.length){r&&r.call(q.context,q.obj);b[n]=null;f[n].length&&k(n)}}}function c(){var n=navigator.userAgent;g={async:j.createElement("script").async===true};(g.webkit=/AppleWebKit\//.test(n))||(g.ie=/MSIE|Trident/.test(n))||(g.opera=/Opera/.test(n))||(g.gecko=/Gecko\//.test(n))||(g.unknown=true)
+		}function k(z,y,A,v,r){var t=function(){i(z)},B=z==="css",o=[],u,w,s,q,x,n;g||c();if(y){y=typeof y==="string"?[y]:y.concat();if(B||g.async||g.gecko||g.opera){f[z].push({urls:y,callback:A,obj:v,context:r})}else{for(u=0,w=y.length;u<w;++u){f[z].push({urls:[y[u]],callback:u===w-1?A:null,obj:v,context:r})}}}if(b[z]||!(q=b[z]=f[z].shift())){return}h||(h=j.head||j.getElementsByTagName("head")[0]);x=q.urls.concat();for(u=0,w=x.length;u<w;++u){n=x[u];if(B){s=g.gecko?l("style"):l("link",{href:n,rel:"stylesheet"})
+		}else{s=l("script",{src:n});s.async=false}s.className="lazyload";s.setAttribute("charset","utf-8");if(g.ie&&!B&&"onreadystatechange" in s&&!("draggable" in s)){s.onreadystatechange=function(){if(/loaded|complete/.test(s.readyState)){s.onreadystatechange=null;t()}}}else{if(B&&(g.gecko||g.webkit)){if(g.webkit){q.urls[u]=s.href;d()}else{s.innerHTML='@import "'+n+'";';a(s)}}else{s.onload=s.onerror=t}}o.push(s)}for(u=0,w=o.length;u<w;++u){h.appendChild(o[u])}}function a(p){var o;try{o=!!p.sheet.cssRules
+		}catch(n){e+=1;if(e<200){setTimeout(function(){a(p)},50)}else{o&&i("css")}return}i("css")}function d(){var o=b.css,n;if(o){n=m.length;while(--n>=0){if(m[n].href===o.urls[0]){i("css");break}}e+=1;if(o){if(e<200){setTimeout(d,50)}else{i("css")}}}}return{css:function(p,q,o,n){k("css",p,q,o,n)},js:function(p,q,o,n){k("js",p,q,o,n)}}})(this.document);
+		LazyLoad.js("http://dicimg.naver.net/dic-common-js/20170410112653/mdichome-core-2.js");
+	</script>
+	
+ 
+<script type="text/javascript" >
+
+/* var oScroll = new jindo.m.Scroll("view", {
+    bUseHScroll : true,
+    bUseVScroll : false,
+    bUseMomentum : true,
+    nDeceleration : 0.0005,
+    nHeight: 110
+}); */
+
+function go_cndic_hw( url ) {
+	var locale = "ko";
+	if (typeof $Cookie != "undefined") {
+        locale=  $Cookie().get("DICT_LOCALE2"); 
+    } else if (typeof jQuery != "undefined" && typeof jQuery.cookie != "undefined") {
+    	locale = jQuery.cookie("DICT_LOCALE2");
+    }
+	if( locale == "zh_CN" ){
+		url = url.replace("#sword=","?sLn=" + locale + "#sword=");
+	}else {
+		url = url.replace("#sword=","?sLn=ko#sword=");
+	}
+	
+	location.href =  url;
+};
+
+function go_jpdic_hw( url ) {
+	var locale = "ko";
+	if (typeof $Cookie != "undefined") {
+        locale=  $Cookie().get("DICT_LOCALE2"); 
+    } else if (typeof jQuery != "undefined" && typeof jQuery.cookie != "undefined") {
+    	locale = jQuery.cookie("DICT_LOCALE2");
+    }
+	locale = locale||'ko';
+	url = url.replace("#sword=","&locale=" + locale + "#sword=");
+
+	location.href =  url;
+};
+
+if( window.indexM == null){
+	window.indexM = new indexM_obj(
+			{   
+				// 사전
+				terms : "http://m.terms.naver.com",
+				krdic: "http://m.krdic.naver.com",
+				endic: "http://m.endic.naver.com",
+				jpdic: "http://m.jpdic.naver.com",
+	     		cndic: "http://m.cndic.naver.com/?sLn=ko",	
+	     		hanja: "http://m.hanja.naver.com",
+	     		spdic : "http://m.spdic.naver.com",
+	     		frdic: "http://m.frdic.naver.com",
+				dedic: "http://m.dedic.naver.com",
+				rudic: "http://m.rudic.naver.com",
+				ladic: "http://m.ladic.naver.com",
+				ptdic: "http://m.ptdic.naver.com",
+				vndic: "http://m.vndic.naver.com",
+				krvndic: "http://m.koreandict.naver.com/vietnamese/",
+				trdic: "http://m.trdic.naver.com",
+				mndic: "http://m.mndic.naver.com",
+				iddic: "http://m.iddic.naver.com",
+				khdic: "http://m.khdic.naver.com",
+				uadic: "http://m.uadic.naver.com",
+				uzdic: "http://m.uzdic.naver.com",
+				aldic: "http://m.aldic.naver.com",
+				gedic: "http://m.gedic.naver.com",
+				opendic: "http://opendict.naver.com/participation/word_list.dict#common/register/all/ko/",
+				itdic: "http://m.itdic.naver.com",
+				rodic: "http://m.rodic.naver.com",
+				nldic: "http://m.nldic.naver.com",
+				pldic: "http://m.pldic.naver.com",
+				svdic: "http://m.svdic.naver.com",
+				hudic: "http://m.hudic.naver.com",
+				csdic: "http://m.csdic.naver.com",
+				swdic: "http://m.swdic.naver.com",
+				hidic: "http://m.hidic.naver.com",
+				fadic: "http://m.fadic.naver.com",
+				thdic: "http://m.thdic.naver.com",
+				ardic: "http://m.ardic.naver.com",
+				krcndic: "http://m.cndic.naver.com/?sLn=zh_CN",
+				nedic: "http://m.nedic.naver.com",
+				
+				// 단어장/학습
+				talkie : "http://opendict.naver.com/services.html?redirectTo=http://talkie.naver.com",
+				enword : "http://m.wordbook.naver.com/endic/main.nhn",
+				enword_my : "http://m.wordbook.naver.com/endic/wordbook/my.nhn",
+				enword_mhs : "http://m.wordbook.naver.com/endic/wordbook/mhs.nhn",
+				enword_toeic : "http://m.wordbook.naver.com/endic/wordbook/exam.nhn",
+				enword_challenge : "http://m.wordbook.naver.com/endic/challenge/main.nhn",
+				enword_word : "http://m.wordbook.naver.com/endic/today/words.nhn",
+				enword_quiz :"http://m.wordbook.naver.com/endic/today/quiz.nhn",
+				enword_conv : "http://m.wordbook.naver.com/endic/today/conversation.nhn",
+				
+				jpword : "http://m.wordbook.naver.com/jpdic/main.nhn",
+				jpword_my : "http://m.wordbook.naver.com/jpdic/wordbook/my.nhn",
+				jpword_hjbook : "http://m.wordbook.naver.com/jpdic/wordbook/kanji.nhn",
+				jpword_jlpt : "http://m.wordbook.naver.com/jpdic/wordbook/jlpt.nhn",
+				jpword_idiom : "http://m.wordbook.naver.com/jpdic/wordbook/idiom.nhn",
+				jpword_challenge : "http://m.wordbook.naver.com/jpdic/challenge/main.nhn",
+				jpword_pratical : "http://m.wordbook.naver.com/jpdic/practical/conversation.nhn",
+				jpword_start : "http://m.wordbook.naver.com/jpdic/start/words.nhn",
+				jpword_word : "http://m.wordbook.naver.com/jpdic/today/words.nhn",
+				jpword_quiz : "http://m.wordbook.naver.com/jpdic/today/quiz.nhn",
+				jpword_conv : "http://m.wordbook.naver.com/jpdic/today/conversation.nhn",
+				
+				cnword : "http://m.wordbook.naver.com/cndic/main.nhn",
+				cnword_my : "http://m.wordbook.naver.com/cndic/wordbook/my.nhn",
+				cnword_img : "http://m.wordbook.naver.com/cndic/wordbook/img.nhn",
+				cnword_hsk : "http://m.wordbook.naver.com/cndic/wordbook/hsk.nhn",
+				cnword_bct : "http://m.wordbook.naver.com/cndic/wordbook/bct.nhn",
+				cnword_challenge : "http://m.wordbook.naver.com/cndic/challenge/main.nhn",
+				cnword_beginner : "http://m.wordbook.naver.com/cndic/nihao/initial.nhn",
+				cnword_word : "http://m.wordbook.naver.com/cndic/today/words.nhn",
+				cnword_quiz : "http://m.wordbook.naver.com/cndic/today/quiz.nhn",
+				cnword_conv : "http://m.wordbook.naver.com/cndic/today/conversation.nhn",
+				
+				// 번역/회화
+	     		entrans : "http://translate.naver.com/#/ko/en/",
+	     		jptrans : "http://translate.naver.com/#/ko/ja/",
+	     		cntrans : "http://translate.naver.com/#/ko/zh-CN",
+	     		webtrans : "javascript:onClickJptrans();",
+	     		jptalk : "javascript:onClickJptalk();",
+	     		estrans : "http://translate.naver.com/#/es/en",
+	     		pttrans : "http://translate.naver.com/#/pt/en",
+	     		thtrans : "http://translate.naver.com/#/th/en",
+	     		idtrans : "http://translate.naver.com/#/id/en",
+	     		
+	     		cnentrans : "http://translate.naver.com/#/zh-CN/en",
+	     		deentrans : "http://translate.naver.com/#/de/en",
+	     		ruentrans : "http://translate.naver.com/#/ru/en",
+	     		vnentrans : "http://translate.naver.com/#/vi/en",
+	     		hientrans : "http://translate.naver.com/#/hi/en",
+	     		
+	     		
+	     		// 단어퀴즈
+	     		wquiz : "http://wquiz.naver.com/",
+	     		wquiz_kr : "http://wquiz.naver.com/list.dict?service=krdic&dictType=koko&sort_type=1&group_id=0",
+	     		wquiz_en : "http://wquiz.naver.com/list.dict?service=endic&dictType=enko&sort_type=1&group_id=0",
+	     		wquiz_cn : "http://wquiz.naver.com/list.dict?service=cndic&dictType=cnko&sort_type=1&group_id=24",
+	     		wquiz_jp : "http://wquiz.naver.com/list.dict?service=jpdic&dictType=jpko&sort_type=1&group_id=23",
+	     		wquiz_fr : "http://wquiz.naver.com/list.dict?service=frdic&dictType=frko&sort_type=1&group_id=0"
+			}
+	
+	);
+}
+BMR.run('http://sp.naver.com/sp');
+//일한통역기 실행
+function onClickJptrans(){
+	var _this = this;
+	if(isNaverDicApp){
+		location.href = "http://app.translate.naver.com/?lang=jp&gnb=off";
+	}else if( isAndroid() ){
+		location.href = "intent://com.nhn.android.naverdic?launchingPage=webTransMain#Intent;scheme=naverdic;action=android.intent.action.VIEW;category=android.intent.category.BROWSABLE;package=com.nhn.android.naverdic;end";
+	}else if( isiphone()|| isIpad()){
+		var goUrl = "naverdicapp://launching?launchingPage=webTrans";
+		var appstoreUrl = "http://itunes.apple.com/app/id673085116";
+		_this.onClickApp(goUrl, appstoreUrl);
+	}
+}
+
+function onClickApp(url,appstoreUrl){
+	var ua = navigator.userAgent;
+    ua = ua.toLowerCase();
+    
+    if( ua.indexOf("os 9_") > -1 && ua.indexOf("naverdicapp;") == -1 ){
+		alert("已安装词典APP的用户将运行词典APP。" + "\n" + "未安装词典APP的用户，请到iTunes下载并安装。");
+    }
+	var clickedAt = +new Date; 
+	try { 
+		location.href = url;
+	}catch(e) { 
+		//location.href = appstoreUrl; 
+	} 
+	//ios 9일경우 앱스토어로 이동하지 않음
+	
+    if( ua.indexOf("os 9_") == -1 ){
+	   	setTimeout(function() { 
+	   		if (+new Date - clickedAt < 2000){ 	
+	   			location.href = appstoreUrl;
+	   		}
+	   	}, 500);
+	}
+}
+
+</script>
+<script type="text/javascript" >
+//[DICNGDSUS-21783][DIC][mobile web]사전홈, 번역기 배너 추가 작업
+jQuery(window).load(function(){
+	if ( jQuery("#banner_trans").css("display") != "none" ) {
+		var data = {
+		    "srcLang" : "ko",
+		    "tarLang" : "ja" 
+		};
+		
+		//세가지 언어에서 랜덤
+		var Arr = ["en","ja","zh-CN"];  
+		var n = Math.floor(Math.random() * Arr.length + 1)-1;  	
+		data.tarLang = Arr[n];
+
+		jQuery.ajax({
+		    url : "http://translate.naver.com/getCantPhrase.dic",
+		    type: "POST",
+		    data: data,
+		    dataType : "jsonp",
+		    success : function(data) {
+		      if (data != null) {
+		          showBanner(data);
+		      }
+		    }
+		});
+		
+		function showBanner(data) {
+		    var phrase = data.phrase;
+		    
+		    var banner = document.getElementById("banner_trans"); // 모바일 일본어사전에 번역기 트렌드 배너  div
+		    banner.className = phrase.klassName; // api 사용하여 div 클래스명 입력
+		    banner.innerHTML = phrase.banner; // api 사용하여 div 내부에 필요한 마크업 채우기
+		}
+		
+		jQuery("#banner_trans").click(function(){
+			nclk(this, 'dac.translate', '', '');
+		})
+	}
+});
+//개인화 플러그인 시작
+(function(){
+	var spLocale = window.i18n("locale.locale","ko");
+	if(spLocale!="ko"){
+		jQuery("#infoProtect").hide();		
+	}
+	if(spLocale=="en"){
+		spLocale = "en_US";
+	}else if(spLocale=="ja"){
+		spLocale = "ja_JP";
+	}else if(spLocale=="zh"){
+		spLocale = "zh_CN";
+	}else {
+		spLocale = "ko_KR";
+	}
+	var id = "naver-splugin-sdk";
+	var s = document.createElement("script"); s.id = id; s.type = "text/javascript", s.charset = "utf-8", s.async = false;
+	s.src = ("http://spi.naver.net/js/release/"+spLocale+"/splugin.m.js?201702061730");
+	//중국어일 경우에만 하기 커스텀 플로그인 사용합니다
+	if ( spLocale=="zh_CN" ) {
+		s.src = ("http://dicimg.naver.net/dic-common-js/20170410112653/splugin.m.zh_CN.dichome.js?201702061730");
+	}
+	var d = document.getElementsByTagName('head')[0]; d.appendChild(s, d);
+	if ( document.getElementById("spi") ){
+		var locale = window.i18n("locale.locale","ko");
+		if ( locale == "zh" ) {
+			locale = "zh_CN";
+		}
+		document.getElementById("spi").setAttribute( "data-url", "http://" + document.location.host + "?locale=" + locale );
+	}
+})();
+
+/*function getQRcode() {
+	jQuery.getScript("http://dicimg.naver.net/dic-common-js/20170410112653/jquery.qrcode.min.js?" + Date.now(), function() {
+		jQuery('#qrcodeCanvas').qrcode({
+			text	: "http://m.jpdic.naver.com/locale=zh_CN"
+		});	
+	});
+}*/
+window.onload = function() {
+    window.__splugin = SocialPlugIn_Core({
+        // nEvent Key
+        "evKey"       : "dic_home",
+        // 서비스명
+       	"serviceName" : "词典",
+        // 출처명
+        //"sourceName" : "词典",
+        // 버튼 클릭후 호출되는 콜백함수
+        "onClick"     : function(button) {
+            // button = 버튼명(band:밴드보내기)
+        },
+        // 공유하기 레이어 노출 후 호출되는 콜백함수
+        "onShow"      : function() {
+        },
+        // 공유하기 레이어 닫기 후 호출되는 콜백함수
+        "onHide"      : function() {
+        }
+    });
+    //중국어스킨일 경우에만 spi_cn_m.css 인크루드합니다.
+    if ( window.i18n("locale.locale","ko") == "zh" ){
+	    setTimeout(function() {
+	    	var head = document.getElementsByTagName('head')[0];
+	        var link = document.createElement('link');
+	        link.href = "http://dicimg.naver.net/dic-home-mobile/style/201702081432/css/spi_cn_m.css";
+	        link.rel = 'stylesheet';
+	        link.type = 'text/css';
+	        head.appendChild(link);
+		}, 0);
+	}
+}
+
+//개인화 플러그인 종료
+</script>
+<script type="text/javascript" src="http://dicimg.naver.net/dic-common-js/20170410112653/dictMobileMain.js"></script>
+</html>
